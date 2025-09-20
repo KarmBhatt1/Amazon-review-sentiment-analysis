@@ -1,0 +1,7 @@
+This project develops a sentiment analysis framework for Amazon product reviews by combining traditional natural language processing approaches with transformer-based deep learning models. The workflow begins with exploratory data analysis to understand the distribution of ratings and review patterns. Lexicon-driven methods such as VADER are applied to capture polarity scores, providing interpretable insights into sentiment trends across different star ratings.
+
+To enhance contextual precision, the framework integrates RoBERTa, a transformer model fine-tuned for sentiment classification. The model processes review text to generate probability distributions over negative, neutral, and positive classes, enabling a direct comparison with lexicon-based outputs. By running both approaches in parallel, the pipeline highlights the strengths of rule-based methods in interpretability and the superiority of transformer models in capturing nuanced linguistic patterns.
+
+Visualizations, including bar plots and pair plots, are employed to analyze sentiment distributions across review scores and compare the agreement and divergence between models. The framework further demonstrates how hybrid evaluation enriches understanding of consumer feedback by balancing transparency with predictive accuracy.
+
+Overall, this project illustrates the progression from statistical lexicons to transformer architectures in sentiment analysis and provides a scalable foundation for applications in consumer behavior analytics, recommendation systems, and business intelligence.
